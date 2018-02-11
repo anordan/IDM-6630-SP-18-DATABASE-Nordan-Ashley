@@ -9,11 +9,12 @@
 <body>
     <header>
         <?php
-        
-        echo "<h1>Ashley\'s' Top 10 Albums</h1>";
+
+        echo "<h1>Ashley's Top 10 Albums</h1>";
 
     ?>
     </header>
+
 
     <?php
     $host = "localhost";
@@ -22,7 +23,7 @@
     $pw = "root";
 
     try {
-        $conn = new PDO("mysql:host=;dbname=$db", $un, $pw");
+        $conn = new PDO("mysql:host=$host;dbname=$db", $un, $pw);
         $conn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     } catch(PDOException $e) {
@@ -42,6 +43,8 @@ foreach ($conn ->query($query) as $album) {
 };
 
     ?>
+
+
 
     </body>
     </html>
