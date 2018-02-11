@@ -1,0 +1,22 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3em;
+    color: #000;
+    margin-right: 3em;
+}
+
+h2, h3, h4 {
+	margin: 3em;
+	color: #000;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 2em;
+	
+}
+
+p {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+

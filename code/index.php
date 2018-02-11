@@ -9,7 +9,8 @@
 <body>
     <header>
         <?php
-        echo "<h1>Ashley's Top 10 Albums"</h1>";
+        
+        echo "<h1>Ashley\'s' Top 10 Albums</h1>";
 
     ?>
     </header>
